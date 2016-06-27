@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.simplifiedcoding.efe.p3"
+    android:background="@drawable/fondo_pant3">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Mes 4"
+            android:id="@+id/textView14"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textStyle="bold"
+            android:background="#060606"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S o N?"
+            android:id="@+id/textView16"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Participacion en montaje norma ISO 9000"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/norma9000_son"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Mes 5"
+            android:id="@+id/textView17"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textStyle="bold"
+            android:background="#c539b1"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Participacion en licitacion camisas combate"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/licitacioncombate_son"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio unitario"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/licitacionunitario"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:textSize="14dp"
+            android:hint="U$"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:inputType="number|numberDecimal" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Mes 6"
+            android:id="@+id/textView20"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:textStyle="bold"
+            android:background="#ed8f6b"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toma seguro contra robo"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seguro_son"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Mes 8"
+            android:id="@+id/textView22"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:textStyle="bold"
+            android:background="#616262"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incremento en salarios"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/incremento_salarios_son"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Mes 10"
+            android:id="@+id/textView24"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:textStyle="bold"
+            android:background="#060606"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participacion en exportacion elite"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:id="@+id/exportacion_elite_son"
+            android:layout_row="10"
+            android:layout_column="1"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad ofertada"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:textColor="#000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:inputType="number|numberDecimal"
+            android:ems="10"
+            android:id="@+id/elite_cantidad_ofertada"
+            android:layout_row="11"
+            android:layout_column="1"
+            android:textSize="14dp"
+            android:hint="U$"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Otras decisiones"
+        android:id="@+id/textView13"
+        android:textSize="12dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_above="@+id/gridLayout"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/gridLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:id="@+id/guardar1"
+            android:layout_weight="0.86" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:text="ver"
+            android:id="@+id/ver1" />
+    </LinearLayout>
+
+</RelativeLayout>

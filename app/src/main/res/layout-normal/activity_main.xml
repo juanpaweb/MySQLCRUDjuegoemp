@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:weightSum="1"
+    android:background="@drawable/fondo_pant3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenidos al juego Empresarial"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/definitivo_efepng"
+        android:layout_gravity="center_horizontal" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.38">
+
+        <EditText
+            android:layout_width="157dp"
+            android:layout_height="64dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etg"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:maxLength="2"
+            android:hint="Ingrese número de grupo"
+            android:textSize="12dp"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etm"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:maxLength="2"
+            android:hint="Ingrese mes"
+            android:textSize="12dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/ettacdt"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:maxLength="7"
+            android:hint="Traslado de Cta Cte a CDT"
+            android:textSize="12dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etpmcc"
+            android:layout_row="1"
+            android:maxLength="2"
+            android:layout_column="1"
+            android:hint="Plazo en meses"
+            android:textSize="12dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etcdt"
+            android:maxLength="7"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:hint="Traslado de CDT a Cta Cte"
+            android:textSize="12dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etscbm"
+            android:layout_row="2"
+            android:maxLength="2"
+            android:layout_column="1"
+            android:hint="PLazo en meses"
+            android:textSize="12dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etscb"
+            android:layout_row="3"
+            android:maxLength="7"
+            android:layout_column="0"
+            android:hint="Solicitud de credito banc."
+            android:textSize="12dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number|numberDecimal"
+            android:ems="10"
+            android:id="@+id/etpcb"
+            android:layout_row="3"
+            android:maxLength="7"
+            android:layout_column="1"
+            android:hint="Pago de credito Banc."
+            android:textSize="12dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etpc"
+            android:layout_row="4"
+            android:maxLength="7"
+            android:layout_column="0"
+            android:hint="Pago de Ctas por pagar"
+            android:textSize="12dp"
+            android:textColorHint="#000" />
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.42">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:id="@+id/buttonAdd"
+            android:textSize="14dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver"
+            android:id="@+id/buttonView" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continuar"
+            android:id="@+id/continuar"
+            android:layout_gravity="center_horizontal"
+            android:onClick="continuar"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

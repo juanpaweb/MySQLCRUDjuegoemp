@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Juego Empresarial EFE</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_view_all_employee">Ver todos los grupos</string>
+    <string name="title_activity_view_employee">Ver grupos</string>
+</resources>
